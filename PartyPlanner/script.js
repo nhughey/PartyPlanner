@@ -70,6 +70,7 @@ async function createEvent(event){
         );
         const json = await res.json();
         console.log(json);
+        render();
     }catch(err){
         console.log(err)
     }
